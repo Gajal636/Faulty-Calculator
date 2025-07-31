@@ -25,3 +25,11 @@ A fun and quirky **Faulty Calculator** made using **HTML**, **JavaScript** that 
 - Introducing randomness using `Math.random()`
 
 ## Example Code Snippet
+
+
+js-
+let a = Math.random();
+if (a < 0.1) {
+  // Faulty output
+  return actualResult + Math.floor(Math.random() * 10);
+}
